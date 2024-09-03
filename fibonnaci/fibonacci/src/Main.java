@@ -3,32 +3,32 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-
         Scanner input = new Scanner(System.in);
 
-//        FIBONACCI
-//
-//        System.out.print("Qual termo deseja saber? ");
-//        int termo = input.nextInt();
-//
-//        int t1 = 0;
-//        int t2 = 1;
-//
-//        System.out.println(t1);
-//        System.out.println(t2);
-//
-//        int cont = 2;
-//
-//        while (cont < termo) {
-//            int t3 = t1 + t2;
-//            t1 = t2;
-//            t2 = t3;
-//            cont++;
-//            System.out.println(t3);
-//        }
+        FIBONACCI
+
+        System.out.print("Qual termo deseja saber? ");
+        int termo = input.nextInt();
+
+        int t1 = 0;
+        int t2 = 1;
+
+        System.out.println(t1);
+        System.out.println(t2);
+
+        int cont = 2;
+
+        while (cont < termo) {
+            int t3 = t1 + t2;
+            t1 = t2;
+            t2 = t3;
+            cont++;
+            System.out.println(t3);
+        }
 
 
         //VERIFICAÇÃO DE CARACTERES
+//        Scanner input = new Scanner(System.in);
 //        System.out.print("Digite uma palavra: ");
 //        String palavra = input.next().toLowerCase();
 //
